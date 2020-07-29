@@ -12,3 +12,6 @@
 * If you run `binding.pry` and your terminal is too short to show you all the lines of code, run `q` in the terminal.
 * If you want to exit pry, run `exit!` in the terminal.
 * If you've put your `binding.pry` inside of a loop, running `exit` (without `!`) in the terminal will simply move on to the next iteration inside the loop.
+* `binding.pry` is block scoped, so it's very sensitive to where you put it in your code block.
+* `binding.pry` can only access block parameters between `do` and `end`.
+* To write a multiline code block inside of pry, put `\` at the end of each line.
