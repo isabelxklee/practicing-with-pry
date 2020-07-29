@@ -1,7 +1,7 @@
 require 'pry'
 
 # Write a method that takes in an array of strings as an argument.
-# The method should puts the following string to the terminal for each element: {person} + ", is it me or does it smell like an updog in here?".
+# The method should return the following string for each element: {person} + ", is it me or does it smell like an updog in here?".
 
 def greeter(array)
   # empty
