@@ -1,4 +1,4 @@
-# practicing-with-pry
+# Practicing with Pry
 
 ## Instructions
 1. Open the lab you're working on in your text editor.
